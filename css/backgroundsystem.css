@@ -1,0 +1,27 @@
+body{
+	background-size:100%;
+}
+.container{
+	width: 500px !important;margin-top:150px;
+}
+.panel-heading{
+	font-size:20px;font-weight:bold;text-align:center;
+}
+form{
+	border-top:1px solid #fff;
+}
+form tr td{
+	border:1px solid #fff;
+}
+.td1{
+	width:20%;text-align:center;font-size:18px;
+}
+.td1 p{
+	margin:0px;padding-top:5px;
+}
+#login{
+	margin-left:100px;
+}
+#company{
+	text-align:center;font-size:16px;color:#333;
+}

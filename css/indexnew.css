@@ -1,0 +1,273 @@
+body{
+	padding:0px;margin:0px;
+}
+#contentcontainer{
+	width:100% !important;margin:0px auto;padding:0px;margin:0px;
+}
+#row0{
+	background-size:100% 100%;padding:0px;margin:0px;
+}
+.row{
+	background-size:100% 100%;
+}
+#myNavbar{
+	opacity:.8;width:100%;
+}
+#mymodal{
+	opacity:.8;
+}
+.glyphicon-align-justify{
+	cursor:pointer;
+}
+#accordion .panel-default{
+	border:1px solid white;margin:0px;
+}
+#accordion .panel-default .panel-body{
+	padding:0px;
+}
+#accordion .panel-default .nav-tabs{
+	padding:0px;margin:0px;
+}
+#accordion .panel-default .nav-tabs a{
+	margin:0px;color:#444;font-size:16px;
+}
+#accordion .panel-heading{
+	height:70px;padding-top:20px;background:white;border:2px solid white;
+}
+#accordion .panel-title{
+	font-size:16px;text-align:left;color:#444;
+}
+#accordion .panel-title a{
+	text-decoration:none;
+}
+#register .table-condensed{
+	width:90%;margin:auto;
+}
+#register .table-condensed caption{
+	font-size:16px;margin:10px auto;
+}
+#register .table-condensed tr{
+	border:1px solid rgb(204, 204, 204);
+}
+#register .modal-title{
+	text-align:center;
+}
+#lasttd{
+	padding-left:32%;
+}
+#register .alert{
+	margin:0px;padding:5px 0px;width:100%;height:100%;font-size:14px;
+}
+#registerinfo{
+	width:90%;mrgin:auto;
+}
+#registerinfo caption{
+	font-size:16px;margin:10px auto;
+}
+#registerinfo tr td{
+	text-align:center;border:1px solid rgb(204, 204, 204)
+}
+#re{
+	padding-top:20px;
+}
+#abstract{
+	width:90%;
+}
+#abstract tr{
+	border:1px solid rgb(204, 204, 204);margin:0px;padding:0px;
+}
+#abstract tr td{
+	text-align:center;border:1px solid rgb(204, 204, 204);margin:0px;padding:0px;vertical-align:middle;height:40px;width:20%;
+}
+#abstract tr td input{
+	margin:0px;
+}
+#abstract .form-group{
+	margin:0px;
+}
+#thesis{
+	width:90%;mrgin:auto;
+}
+#thesis tr{
+	border:1px solid rgb(204, 204, 204);
+}
+#thesis tr td{
+	text-align:center;border:1px solid rgb(204, 204, 204);margin:0px;padding:0px;vertical-align:middle;height:40px;
+}
+#reference{
+	width:90%;
+}
+#reference tr{
+	border:1px solid rgb(204, 204, 204);
+}
+#reference tr td{
+	text-align:center;border:1px solid rgb(204, 204, 204);margin:0px;padding:0px;vertical-align:middle;height:40px;
+}
+#account{
+	width:90%;mrgin:auto;
+}
+#account tr{
+	border:1px solid rgb(204, 204, 204);
+}
+#account tr td{
+	text-align:center;border:1px solid rgb(204, 204, 204);margin:0px;padding:0px;vertical-align:middle;height:40px;
+}
+#row4 p{
+	line-height:2em;text-indent:2em;
+}
+#row4 ul{
+	list-style:none;text-indent:2em;font-size:16px;color:#000;
+}
+#row4 ul li{
+	margin:15px 0px;color:#000;font-size:20px;
+}
+#slidershow{
+	margin:0px;padding:0px;height:100%;
+}
+#row6 .media-heading{
+	cursor:pointer;
+}
+#row7 p{
+	font-size:18px;color:#000;line-height:2em;
+}
+#row7 p span{
+	color:#00c0ff;
+}
+#row9 p{
+	color:#00c0ff;font-size:22px;margin:auto;line-height:3em;text-align:center;
+}
+#row9 #org{
+	width:100%;mrgin:auto;
+}
+#row9 #org caption{
+	font-size:16px;margin:10px auto;
+}
+#row9 #org tr td{
+	text-align:center;border:1px solid rgb(204, 204, 204);color:#000;
+}
+#row10 .table-condensed{
+	width:100%;mrgin:auto;
+}
+#row10 .table-condensed caption{
+	color:#00c0ff;font-size:18px;
+}
+#row10 .table-condensed tr td{
+	border:1px solid rgb(204, 204, 204);color:#000;
+}
+#row11 .table-condensed{
+	width:100%;mrgin:auto;
+}
+#row11 .table-condensed caption{
+	color:#00c0ff;font-size:18px;
+}
+#row11 .table-condensed tr td{
+	border:1px solid rgb(204, 204, 204);color:#000;
+}
+#row12 .panel-heading{
+	background:white;border:1px solid white;
+}
+#row12 .panel-heading a{
+	color:#00c0ff;text-decoration:none;font-size:16px;
+}
+#row12 table{
+	width:100%;mrgin:auto;
+}
+#row12 table tr td{
+	border:1px solid rgb(204, 204, 204);color:#000;
+}
+#row12 .panel-default{
+	border:1px solid white;
+}
+#row12 .panel-body{
+	border:1px solid white;
+}
+#findpaper2 p{
+	font-size:16px;text-indent:2em;color:#000;
+}
+#row13 p{
+	color:#000;font-size:18px;text-align:center;
+}
+#row13 p span{
+	color:#00c0ff;text-decoration:underline;
+}
+#row13 .row13_2{
+	text-align:left;
+}
+#row13 .row13_div p{
+	line-height:3em;
+}
+#hotel{
+	height:100%;
+}
+#hotel .carousel-inner{
+	height:100%;
+}
+#hotel .carousel-inner .item{
+	height:100%;
+}
+#row14 table{
+	width:100%;mrgin:auto;
+}
+#row14 table tr th{
+	border:1px solid rgb(204, 204, 204);background:#00c0ff;
+}
+#row14 table tr td{
+	border:1px solid rgb(204, 204, 204);color:#000;
+}
+#row14 p{
+	color:#000;font-size:18px;text-align:left;
+}
+#row14 p span{
+	color:#00c0ff;
+}
+#row14 p a{
+	color:#00c0ff;cursor:pointer;text-decoration:none;
+}
+#row14 h3{
+	color:#00c0ff;cursor:pointer;margin-top:30px;text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

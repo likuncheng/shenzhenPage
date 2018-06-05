@@ -1,0 +1,192 @@
+body{
+	margin:0px;padding:0px;
+}
+.container{
+	width:100% !important;margin:0px auto;padding:0px;margin:0px;height:100%;
+}
+#row1{
+	background:#1f76ea;margin:0px;padding:20px 0px 20px 0px;
+}
+#row1 .col-xs-3{
+	color:white;font-size:26px;
+}
+#row2{
+	height:85%;margin:0px;padding:0px;
+}
+#row2 .col-md-1{
+	background:#2a2d34;height:100%;text-align:center;padding:0px;
+}
+#row2 .col-md-1 .nav{
+	border:1px solid #2a2d34;margin:0px;padding:0px;
+}
+#row2 .col-md-1 .nav a{
+	color:white;border:1px solid #2a2d34;
+}
+#row2 .col-xs-11{
+	height:100%;
+}
+#content1{
+	width:98%;height:100%;display:block;
+}
+#content1 .input-group{
+	width:250px;margin-top:5px;
+}
+#content1 .input-group a{
+	text-decoration:none;
+}
+#content1 table{
+	margin-bottom:5px;
+}
+#content1 table td{
+	border:1px solid rgb(204,204,204);
+}
+#first{
+	background:#1f76ea;
+}
+#first td{
+	color:white;
+}
+#content1 .col-xs-4{
+	padding:0px;
+}
+#content1 .pagination{
+	margin:0px;padding:0px;
+}
+#content1 .pagination a{
+	color:#333;
+}
+#content1 .pagination .active{
+	color:white;background:#1f76ea;
+}
+#content2{
+	width:98%;height:100%;display:none;
+}
+#content2 .input-group{
+	width:250px;margin-top:5px;
+}
+#content2 .input-group a{
+	text-decoration:none;
+}
+#content2 table{
+	margin-bottom:5px;
+}
+#content2 table td{
+	border:1px solid rgb(204,204,204);
+}
+#second{
+	background:#1f76ea;
+}
+#second td{
+	color:white;
+}
+#second td .checkbox{
+	margin:0px;
+}
+#content2 table td .checkbox{
+	margin:0px;
+}
+#content2 .pagination{
+	margin:0px;padding:0px;
+}
+#content2 .pagination a{
+	color:#333;
+}
+#content2 .pagination .active{
+	color:white;background:#1f76ea;
+}
+#content3{
+	width:98%;height:100%;display:none;
+}
+#content3 .input-group{
+	width:250px;margin-top:5px;
+}
+#content3 .input-group a{
+	text-decoration:none;
+}
+#content3 table{
+	margin-bottom:5px;
+}
+#content3 table td{
+	border:1px solid rgb(204,204,204);
+}
+#third{
+	background:#1f76ea;
+}
+#third td{
+	color:white;
+}
+#third td .checkbox{
+	margin:0px;
+}
+#content3 table td .checkbox{
+	margin:0px;
+}
+#content3 .pagination{
+	margin:0px;padding:0px;
+}
+#content3 .pagination a{
+	color:#333;
+}
+#content3 .pagination .active{
+	color:white;background:#1f76ea;
+}
+#content4{
+	width:98%;height:100%;display:none;
+}
+#content4 .input-group{
+	width:250px;margin-top:5px;
+}
+#content4 .input-group a{
+	text-decoration:none;
+}
+#content4 table{
+	margin-bottom:5px;
+}
+#content4 table td{
+	border:1px solid rgb(204,204,204);
+}
+#Four{
+	background:#1f76ea;
+}
+#Four td{
+	color:white;
+}
+#Four td .checkbox{
+	margin:0px;
+}
+#content4 table td .checkbox{
+	margin:0px;
+}
+#content4 .pagination{
+	margin:0px;padding:0px;
+}
+#content4 .pagination a{
+	color:#333;
+}
+#content4 .pagination .active{
+	color:white;background:#1f76ea;
+}
+#content5{
+	width:98%;height:100%;display:none;
+}
+#content5 .input-group{
+	width:250px;margin-top:5px;
+}
+#content5 .input-group a{
+	text-decoration:none;
+}
+#content5 table{
+	margin-bottom:5px;
+}
+#content5 table td{
+	border:1px solid rgb(204,204,204);
+}
+#five{
+	background:#1f76ea;
+}
+#five td{
+	color:white;
+}
+#content6{
+	border:1px solid red;width:98%;height:100%;display:none;
+}

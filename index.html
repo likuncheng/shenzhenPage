@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<title>第三届雷达成像会议</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/indexnew.css">
+</head>
+<body data-spy="scroll" data-target="#myNavbar" style="position:relative">
+<div class="container" id="contentcontainer">	
+	<div class="row" id="row0" style="background-image:url(images/f11.png);">
+		<!-- 导航条 -->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="myNavbar" style="padding:0px;margin:0px;">
+			<div class="container" style="padding:0px;margin-right:20px;">				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right" style="margin:0px;">
+						<li><a href="#row0">首页</a></li>
+						<li><a href="#row1">欢迎词</a></li>
+						<li><a href="#row2">会议通知</a></li>
+						<li><a href="#row3">联系我们</a></li>
+						<li><a href="#row4">参与与赞助</a></li>
+						<li><span class="glyphicon glyphicon-align-justify" style="font-size:35px;padding-left:50px;margin-top:5px;" id="menu"></span></li>
+					</ul>
+				</div>
+			</div>	
+		</nav>
+		<div id="indexname" style="margin:150px auto;border:1px solid white;display:block;background:white;width:800px;padding:35px;">
+			<p style="color:#000;font-family:'Microsoft Yahei';font-size:40px;text-align:center;">第四届成像雷达对地观测高级学术研讨会</p>
+			<p style="color:#00c0ff;font-family:'Microsoft Yahei';font-size:36px;text-align:center;">时间：2017年12月16-18号</p>
+			<p style="color:#00c0ff;font-family:'Microsoft Yahei';font-size:36px;text-align:center;border-bottom:1px solid #000;padding-bottom:20px;">地点：深圳</p>
+		</div>
+		
+		<div id="row5" class="rows" style="margin:auto;margin-top:60px;display:none;background:white;position:relative;">
+			<div style="margin:100px auto;display:block;background:white;width:1200px;height:500px;padding:35px 0px 35px 35px;">
+			<div style="border:3px solid #00c0ff;width:700px;height:420px;position:absolute;" id="map"></div>
+			<div style="width:450px;height:420px;position:relative;left:710px;top:0px;padding:0px;margin:0px;">
+				<br/><br/><br/>
+				<p style="font-size:20px;color:#333;line-height:2em;">酒店电话:</p>
+				<p style="font-size:36px;color:#00c0ff;line-height:2em;">0731—88708888 </p><br/><br/>
+				<p style="font-size:18px;color:#333;line-height:2em;">酒店名称：长沙现代凯莱大酒店</p>
+				<p style="font-size:18px;color:#333;line-height:2em;"> 酒店地址： 长沙市天心区芙蓉南路二段 128号现代广场 </p>
+				<p style="font-size:18px;color:#333;cursor:pointer;line-height:2em;" id="hotelroute">READ&nbsp;&nbsp;MORE</p>		
+			</div>
+		</div>	
+	</div>
+	<div class="modal fade" id="traffic">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" style="color:#00c0ff;text-align:center;">交通路线</h4>
+				</div>
+				<div class="modal-body">
+					<!-- 面板 -->
+					<div class="panel panel-primary" style="border:1px solid #00c0ff;">
+					    <div class="panel-heading" style="background:#00c0ff">（1） 长沙火车南站（高铁站）到长沙现代凯莱大酒店：</div>						
+						<table class="table table-bordered">
+						<tbody>
+							<tr>
+								<td>地铁：</td>
+								<td>地铁2号线从火车南站到五一广场站换乘地铁1号线，桂花坪站（2出口下车），步行约700米，整个行程约1小时；</td>
+							</tr>
+							<tr>
+								<td>的士：</td>
+								<td>行程约35分钟，花费约30元；</td>
+							</tr>
+						</tbody>
+						</table>
+					</div>
+					<div class="panel panel-primary" style="border:1px solid #00c0ff;">
+					    <div class="panel-heading" style="background:#00c0ff">（2）  长沙火车站到长沙现代凯莱大酒店：</div>						
+						<table class="table table-bordered">
+						<tbody>
+							<tr>
+								<td>地铁：</td>
+								<td>地铁2号线从长沙火车站到五一广场站换乘地铁1号线，桂花坪站（2出口下车），步行约700米，整个行程约50分钟；</td>
+							</tr>
+							<tr>
+								<td>的士：</td>
+								<td>行程约40分钟，花费约32元；</td>
+							</tr>
+						</tbody>
+						</table>
+					</div>
+					<div class="panel panel-primary" style="border:1px solid #00c0ff;">
+					    <div class="panel-heading" style="background:#00c0ff">（3）  长沙黄花机场到长沙现代凯莱大酒店：</div>						
+						<table class="table table-bordered">
+							<tbody>
+								<tr>
+									<td>地铁：</td>
+									<td>磁悬浮快线从黄花机场到火车南站，地铁2号线从火车南站到五一广场站换乘地铁1号线，桂花坪站（2出口下车），步行约700米，整个行程约1小时40分钟；</td>
+								</tr>
+								<tr>
+									<td>的士：</td>
+									<td>行程约40分钟，花费约88元;</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<button type="button" class="btn btn-default" data-dismiss="modal" style="margin-left:43%;">关闭</button>
+				</div>
+				
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->	
+		</div>
+		<div id="row6" class="rows" style="padding:0px;margin:auto;margin-top:60px;display:none;background:white;position:relative;">
+			<div style="position:absolute;width:60%;height:100%;padding:20px;display:inline-block;">
+				<div id="newsdiv1" style="width:100%;height:100%;position:relative;display:block;">
+					<p style="color:#00c0ff;font-size:24px;text-align:center;margin-top:30px;">大会开幕式通知</p>
+					<p style="color:#000;text-align:center;margin-top:50px;font-size:14px;">发布时间：2016-11-14    浏览次数:<span>314</span></p>
+					<p style="padding-bottom:50px;border-bottom:1px solid #999;color:#000;text-indent:2em;margin-top:30px;font-size:14px;">大会开幕式时间为2016年11月16日上午8:30，地点为现代凯莱酒店二楼的现代厅！欢迎各位学者参加！</p>
+					<button  disabled="disabled" style="cursor:not-allowed;border:1px solid #ccdae7;color:#ccdae7;background:white;height:40px;margin:30px 30px 30px 60px;">上一篇：没有了</button>
+					<button style="position:absolute;top:215px;right:60px;border:1px solid #999;color:#999;background:white;height:40px;margin:30px;">下一篇：会议日程一览表</button>
+				</div>
+				<div id="newsdiv2" style="width:100%;height:100%;position:relative;display:none;">
+					<p style="color:#00c0ff;font-size:24px;text-align:center;margin-top:30px;">会议日程一览表</p>
+					<p style="color:#000;text-align:center;margin-top:50px;font-size:14px;">发布时间：2016-11-14    浏览次数:<span>314</span></p>
+					<p style="color:#000;text-indent:2em;margin-top:30px;font-size:14px;">会议日程已经确定，点击下载一览表。</p>
+					<p style="padding-bottom:50px;border-bottom:1px solid #999;color:#000;text-indent:2em;margin-top:30px;font-size:14px;">相关附件下载:&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="cursor:pointer">会议议程一览表.pdf</a></p>
+					<button style="border:1px solid #999;color:#999;background:white;height:40px;margin:30px 30px 30px 50px;">上一篇：大会开幕式通知</button>
+					<button style="position:absolute;top:265px;right:50px;border:1px solid #999;color:#999;background:white;height:40px;margin:30px;">下一篇：关于提前注册缴费人员提交发票开具回执的通知</button>
+				</div>
+				<div id="newsdiv3" style="width:100%;height:100%;position:relative;display:none;">
+					<p style="color:#00c0ff;font-size:24px;text-align:center;margin-top:30px;">关于提前注册缴费人员提交发票开具回执的通知</p>
+					<p style="color:#000;text-align:center;margin-top:50px;font-size:14px;">发布时间：2016-11-10    浏览次数:<span>398</span></p>
+					<p style="color:#000;text-indent:2em;margin-top:30px;font-size:14px;">为将来便捷办理会议注册和领取发票手续，
+						请各提前注册缴费的参会单位，点击本通知下载附件，填好后发到邮箱：adsar2016@csu.edu.cn，谢谢！</p>
+					<p style="padding-bottom:50px;border-bottom:1px solid #999;color:#000;text-indent:2em;margin-top:30px;font-size:14px;">相关附件下载:&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="cursor:pointer">提前注册缴费人员-发票开具回执.doc</a></p>
+					<button style="border:1px solid #999;color:#999;background:white;height:40px;margin:30px 30px 30px 60px;">上一篇：会议日程一览表</button>
+					<button style="position:absolute;top:285px;right:60px;border:1px solid #999;color:#999;background:white;height:40px;margin:30px;">下一篇：关于口头报告时间和张贴报告规格的通知</button>
+				</div>
+				<div id="newsdiv4" style="width:100%;height:100%;position:relative;display:none;">
+					<p style="color:#00c0ff;font-size:24px;text-align:center;margin-top:30px;">关于口头报告时间和张贴报告规格的通知</p>
+					<p style="color:#000;text-align:center;margin-top:50px;font-size:14px;">发布时间：2016-11-14    浏览次数:<span>314</span></p>
+					<p style="padding-bottom:50px;border-bottom:1px solid #999;color:#000;text-indent:2em;margin-top:30px;font-size:14px;">口头报告的时间为15分钟，讲述12分钟，讨论3分钟；张贴报告的规格为：90cm (宽) X 120cm（高）. </p>
+					<button   style="border:1px solid #999;color:#999;background:white;height:40px;margin:30px 30px 30px 60px;">上一篇：关于提前注册缴费人员提交发票开具回执的通知</button>
+					<button disabled="disabled" style="cursor:not-allowed;position:absolute;border:1px solid #ccdae7;color:#ccdae7;top:215px;right:60px;background:white;height:40px;margin:30px;">下一篇：没有了</button>
+				</div>
+					
+					
+			</div>
+			<div style="position:relative;left:60%;top:0px;width:40%;height:100%;padding:20px;display:inline-block;">
+				<p style="color:#000;font-size:24px;">会议新闻</p>
+				<!-- 媒体对象 -->
+				<div class="media" style="border-top:1px solid #989898;height:20%;">
+				    <a class="pull-left" href="#" style="width:25%;height:100%;">
+				        <img class="media-object" src="images/new1.png" style="width:100%;height:100%;">
+				  	</a>
+				  	<div class="media-body">
+				    	<h4 class="media-heading" style="margin-top:10px;color:#000;font-size:18px;margin-bottom:20px;">大会开幕式通知</h4>
+				    	<div style="color:#000;font-size:16px;"><span style="color:#00c0ff;" class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;2016.11.14</div>
+				  	</div>
+				</div>
+				<!-- 媒体对象 -->
+				<div class="media" style="height:20%;">
+				    <a class="pull-left" href="#" style="width:25%;height:100%;">
+				        <img class="media-object" src="images/new2.png" style="width:100%;height:100%;">
+				  	</a>
+				  	<div class="media-body">
+				    	<h4 class="media-heading" style="margin-top:10px;color:#000;font-size:18px;margin-bottom:20px;">会议日程一览表</h4>
+				    	<div style="color:#000;font-size:16px;"><span style="color:#00c0ff;" class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;2016.11.14</div>
+				  	</div>
+				</div>
+				<!-- 媒体对象 -->
+				<div class="media" style="height:20%;">
+				    <a class="pull-left" href="#" style="width:25%;height:100%;">
+				        <img class="media-object" src="images/new3.png" style="width:100%;height:100%;">
+				  	</a>
+				  	<div class="media-body">
+				    	<h4 class="media-heading" style="margin-top:10px;color:#000;font-size:18px;margin-bottom:20px;">关于提前注册缴费人员提交发票开具回执的通知</h4>
+				    	<div style="color:#000;font-size:16px;"><span style="color:#00c0ff;" class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;2016.11.14</div>
+				  	</div>
+				</div>
+				<!-- 媒体对象 -->
+				<div class="media" style="height:20%;">
+				    <a class="pull-left" href="#" style="width:25%;height:100%;">
+				        <img class="media-object" src="images/new4.png" style="width:100%;height:100%;">
+				  	</a>
+				  	<div class="media-body">
+				    	<h4 class="media-heading" style="margin-top:10px;color:#000;font-size:18px;margin-bottom:20px;">关于口头报告时间和张贴报告规格的通知</h4>
+				    	<div style="color:#000;font-size:16px;"><span style="color:#00c0ff;" class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;2016.11.14</div>
+				  	</div>
+				</div>		
+			</div>
+		</div>
+		<div id="row7" class="rows" style="padding:0px 20px 0px 20px;margin:auto;margin-top:60px;border:3px solid #00c0ff;display:none;background:white;">
+			<p style="color:#00c0ff;font-size:36px;text-align:center;margin:20px auto;">重要日期</p>
+			<p>2016年07月30日，摘要截稿日期<span>(延期至2016年8月25日)</span><span>(延期至2016年9月20日)</span><span>(延期至2016年9月30日)</span></p>
+			<p>2016年09月15日，摘要接收通知<span style="text-decoration:line-through;">(延期至2016年9月25日)</span><span>(延期至2016年9月30日)</span></p>
+			<p>2016年09月30日，提前注册截止<span>(延期到2016年10月15日截止)</span></p>
+			<p>2016年10月20日，论文全文提交截止<span>(延期到2016年10月30日截止)</span></p>
+			<p>2016年11月15日，参会代表注册报到</p>
+			<p>2016年11月16-18日，开幕式、邀请报告、分会报告、闭幕式</p>
+			<p> 2016年11月19-20日，会后考察（自费，岳麓书院、橘子洲头、韶山等）与返程</p>
+		</div>
+		<div id="row8" style="display:none;margin:150px auto;border:1px solid white;background:white;width:800px;padding:35px;">
+			<p style="color:#000;font-size:40px;text-align:center;">会议日程</p>
+			<p style="text-align:center;border-bottom:1px solid #000;padding-bottom:20px;">
+				<a style="color:#00c0ff;font-size:24px;text-decoration:none;cursor:pointer;">会议日程一览表</a>
+			</p>
+		</div>
+		<div id="row9" class="rows" style="position:relative;padding:0px 20px 0px 20px;margin:auto;margin-top:60px;display:none;background:white;">
+			<div style="position:absolute;width:40%;height:100%;padding:20px;display:inline-block;">
+				<div style="margin:20px auto;text-align:center;">
+					<img src="images/org1.png">
+					<img src="images/org2.png">
+					<img src="images/org3.png">
+				</div>
+				<p>主办单位： 国际数字地球学会中国国家委员会</p>
+				<p>承办单位: 中南大学</p>
+				<p>中国科学院遥感与数字地球研究所</p>
+				<p>湖南省国土资源厅 </p>
+				<p>CNISDE微波遥感专业委员会</p>
+				<p>2016年 04月</p>
+			</div>
+			<div style="position:relative;left:40%;top:0px;width:60%;height:100%;padding:20px;display:inline-block;">
+				<p style="color:#00c0ff;font-size:36px;text-align:center;padding:0px;">协办单位</p>
+				<table class="table" id="org">
+					<tr>
+						<td>北京大学地球与空间科学学院</td>
+						<td>北京航空航天大学电子信息工程学院</td>
+					</tr>
+					<tr>
+						<td>北京师范大学全球变化与地球系统科学研究院</td>
+						<td>国防科大图像测量与视觉导航湖南省重点实验室 </td>
+					</tr>
+					<tr>
+						<td>国防科学技术大学电子科学与工程学院</td>
+						<td>国家遥感中心 </td>
+					</tr>
+					<tr>
+						<td>同济大学测绘与地理信息学院</td>
+						<td>武汉大学测绘遥感信息工程国家重点实验室</td>
+					</tr>
+					<tr>
+						<td>西南交通大学地球科学与环境工程学院</td>
+						<td>香港理工大学土地测量与地理资讯学系</td>
+					</tr>
+					<tr>
+						<td>香港中文大学太空与地球信息科学研究所</td>
+						<td>长安大学地质工程与测绘学院</td>
+					</tr>
+					<tr>
+						<td>中国测绘科学研究院</td>
+						<td>中国地震局地质研究所</td>
+					</tr>
+					<tr>
+						<td>中国地质大学土地科学技术学院</td>
+						<td>中国地质大学信息工程学院</td>
+					</tr>
+					<tr>
+						<td>中国电子科技集团公司第三十八研究所</td>
+						<td>中国海洋大学信息科学与工程学院</td>
+					</tr>
+					<tr>
+						<td>中国科学院测量与地球物理研究所</td>
+						<td>中国科学院定量遥感信息技术重点实验室</td>
+					</tr>
+					<tr>
+						<td>中国矿业大学环境与测绘学院</td>
+						<td>中国林业科学研究院资源信息研究所</td>
+					</tr>
+				</table>
+			</div>	
+		</div>
+		<div id="row10" class="rows" style="position:relative;padding:0px 20px 0px 20px;margin:auto;margin-top:60px;border:3px solid #00c0ff;display:none;background:white;">
+			<div style="position:absolute;width:33%;height:100%;padding:20px;display:inline-block;">
+				<table class="table table-condensed">
+						<caption>大会主席</caption>
+						<tr>
+							<td>郭华东</td>
+							<td>院士</td>
+							<td>中国科学院遥感与数字地球研究所</td>
+						</tr>
+					</table>
+					<table class="table table-condensed">
+						<caption>科学委员会 （按姓氏笔画顺序）</caption>
+						<tr>
+							<td>丁晓利</td>
+							<td>教  授</td>
+							<td>香港理工大学</td>
+						</tr>
+						<tr>
+							<td>王  超</td>
+							<td>研究员</td>
+							<td>中科院遥感地球所</td>
+						</tr>
+						<tr>
+							<td>朱建军</td>
+							<td>教  授</td>
+							<td>中南大学</td>
+						</tr>
+						<tr>
+							<td>刘国祥</td>
+							<td>教  授</td>
+							<td>西南交通大学</td>
+						</tr>
+						<tr>
+							<td>江  凯</td>
+							<td>研究员</td>
+							<td>中国电科三十八所</td>
+						</tr>
+						<tr>
+							<td>江利明</td>
+							<td>研究员</td>
+							<td>中国科学院测量与地球物理研究所</td>
+						</tr>
+						<tr>
+							<td>许才军</td>
+							<td>教  授</td>
+							<td>武汉大学</td>
+						</tr>
+						<tr>
+							<td>李  震</td>
+							<td>研究员</td>
+							<td> 中科院遥感地球所</td>
+						</tr>
+						<tr>
+							<td>李平湘</td>
+							<td>教  授</td>
+							<td>武汉大学</td>
+						</tr>
+						<tr>
+							<td>李加洪</td>
+							<td>研究员</td>
+							<td>国家遥感中心</td>
+						</tr>
+						<tr>
+							<td>李传荣</td>
+							<td>研究员</td>
+							<td>中科院光电院</td>
+						</tr>
+						<tr>
+							<td>李志伟</td>
+							<td>教  授</td>
+							<td>中南大学</td>
+						</tr>
+						<tr>
+							<td>李洪平</td>
+							<td>教  授</td>
+							<td>中国海洋大学</td>
+						</tr>										
+					</table>
+			</div>
+			<div style="position:relative;left:34%;top:0px;width:33%;height:100%;padding:20px;display:inline-block;">
+				<table class="table table-condensed">
+					
+					<tr>
+						<td>李  陶</td>
+						<td>教  授</td>
+						<td>武汉大学</td>
+					</tr>
+					<tr>
+						<td>李新武</td>
+						<td>研究员</td>
+						<td>中科院遥感地球所</td>
+					</tr>
+					<tr>
+						<td>李增元</td>
+						<td>研究员</td>
+						<td>中国林业科学研究院</td>
+					</tr>
+					<tr>
+						<td>杨  健</td>
+						<td>教  授 </td>
+						<td>清华大学</td>
+					</tr>
+					<tr>
+						<td>杨  杰</td>
+						<td>教  授</td>
+						<td>武汉大学</td>
+					</tr>
+					<tr>
+						<td>何宜军</td>
+						<td>研究员</td>
+						<td>南京信息工程大学</td>
+					</tr>
+					<tr>
+						<td>汪云甲</td>
+						<td>教  授</td>
+						<td>中国矿业大学</td>
+					</tr>
+					<tr>
+						<td>张  过</td>
+						<td>教  授</td>
+						<td>武汉大学</td>
+					</tr>
+					<tr>
+						<td>张继贤</td>
+						<td>研究员</td>
+						<td>中国测绘科学研究院</td>
+					</tr>
+					<tr>
+						<td>张景发</td>
+						<td>研究员</td>
+						<td>地震局地壳应力研究所</td>
+					</tr>
+					<tr>
+						<td>张  勤</td>
+						<td>教  授</td>
+						<td>长安大学</td>
+					</tr>
+					<tr>
+						<td>陈  戈</td>
+						<td>教  授</td>
+						<td>中国海洋大学</td>
+					</tr>
+					<tr>
+						<td>陈  杰</td>
+						<td>教  授</td>
+						<td>北京航空航天大学</td>
+					</tr>
+					<tr>
+						<td>陈锟山</td>
+						<td>研究员</td>
+						<td>中科院遥感地球所</td>
+					</tr>
+					<tr>
+						<td>邵  芸</td>
+						<td>研究员</td>
+						<td>中科院遥感地球所</td>
+					</tr>
+					<tr>
+						<td>林  珲</td>
+						<td>教  授</td>
+						<td>香港中文大学</td>
+					</tr>					
+				</table>
+			</div>
+			<div style="position:relative;left:34%;top:0px;width:33%;height:100%;padding:20px;display:inline-block;">
+				<table class="table table-condensed">	
+							
+					<tr>
+						<td>林明森</td>
+						<td>研究员</td>
+						<td>国家卫星海洋应用中心</td>
+					</tr>
+					<tr>
+						<td>郁文贤</td>
+						<td>教  授</td>
+						<td>上海交通大学</td>
+					</tr>
+					<tr>
+						<td>单新建</td>
+						<td>研究员</td>
+						<td>地震局地质研究所</td>
+					</tr>
+					<tr>
+						<td>洪  文</td>
+						<td>研究员</td>
+						<td>中科院电子所</td>
+					</tr>
+					<tr>
+						<td>洪  峻</td>
+						<td>研究员</td>
+						<td>中科院电子所</td>
+					</tr>
+					<tr>
+						<td>郭华东</td>
+						<td> 院  士</td>
+						<td>中国科学院遥感与数字地球研究所</td>
+					</tr>
+					<tr>
+						<td>黄国满</td>
+						<td>研究员</td>
+						<td>中国测绘科学研究院</td>
+					</tr>
+					<tr>
+						<td>彭军还</td>
+						<td>教  授</td>
+						<td>中国地质大学</td>
+					</tr>
+					<tr>
+						<td>董  庆</td>
+						<td>研究员</td>
+						<td>中科院遥感地球所</td>
+					</tr>
+					<tr>
+						<td>董  臻</td>
+						<td>研究员</td>
+						<td>国防科学技术大学</td>
+					</tr>
+					<tr>
+						<td>韩春明</td>
+						<td>研究员</td>
+						<td>中科院遥感地球所</td>
+					</tr>
+					<tr>
+						<td>程  晓</td>
+						<td>教  授 </td>
+						<td>北京师范大学</td>
+					</tr>
+					<tr>
+						<td>童小华</td>
+						<td>教  授</td>
+						<td>同济大学</td>
+					</tr>
+					<tr>
+						<td>曾琪明</td>
+						<td>教  授</td>
+						<td>北京大学</td>
+					</tr>
+					<tr>
+						<td>廖明生</td>
+						<td>教  授</td>
+						<td>武汉大学</td>
+					</tr>
+					<tr>
+						<td>廖静娟</td>
+						<td>研究员</td>
+						<td>中科院遥感地球所</td>
+					</tr>
+				</table>
+			</div>
+						
+		</div>
+		<div id="row11" class="rows" style="position:relative;padding:0px 20px 0px 20px;margin:auto;margin-top:60px;border:3px solid #00c0ff;display:none;background:white;">
+			<div style="position:absolute;width:33%;height:100%;padding:20px;display:inline-block;">
+				<table class="table table-condensed">
+					<caption>主席</caption>
+					<tr>
+						<td>朱建军</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>刘勇卫</td>
+						<td> 中国科学院遥感与数字地球研究所</td>
+					</tr>
+				</table>
+				<table class="table table-condensed">
+					<caption>委员（按姓氏笔画顺序）</caption>
+					<tr>
+						<td>王鹏波</td>
+						<td>北京航空航天大学</td>
+					</tr>
+					<tr>
+						<td>史  磊</td>
+						<td>武汉大学</td>
+					</tr>
+					<tr>
+						<td>冯光财</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>毕建涛</td>
+						<td>中科院遥感地球所</td>
+					</tr>
+					<tr>
+						<td>刘  春</td>
+						<td>同济大学</td>
+					</tr>
+					<tr>
+						<td>闫世勇</td>
+						<td>中国矿业大学</td>
+					</tr>
+					<tr>
+						<td>汤玉奇</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>李志伟</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>李吉平</td>
+						<td>至远科技</td>
+					</tr>
+					<tr>
+						<td>杨红磊</td>
+						<td>中国地质大学（北京）</td>
+					</tr>
+					<tr>
+						<td>何志华</td>
+						<td>国防科学技术大学</td>
+					</tr>
+					<tr>
+						<td>汪长城</td>
+						<td> 中南大学</td>
+					</tr>					
+					
+				</table>
+			</div>
+			<div style="position:relative;left:34%;top:0px;width:33%;height:100%;padding:20px;display:inline-block;">
+				<table class="table table-condensed">
+					<tr>
+						<td>汪韬阳</td>
+						<td>武汉大学</td>
+					</tr>
+					<tr>
+						<td>沈  强 </td>
+						<td>中国科学院测量与地球物理研究所</td>
+					</tr>
+					<tr>
+						<td>张小虎</td>
+						<td>国防科学技术大学</td>
+					</tr>
+					<tr>
+						<td>张  磊</td>
+						<td>香港理工大学</td>
+					</tr>
+					<tr>
+						<td>张松梅</td>
+						<td>国家遥感中心</td>
+					</tr>
+					<tr>
+						<td>陈  权</td>
+						<td>中科院遥感地球所</td>
+					</tr>
+					<tr>
+						<td>周勇胜</td>
+						<td>中国科学院光电研究院</td>
+					</tr>
+					<tr>
+						<td>法文哲</td>
+						<td>北京大学</td>
+					</tr>
+					<tr>
+						<td>屈春燕</td>
+						<td>中国地震局地质研究所</td>
+					</tr>
+					<tr>
+						<td>赵  争</td>
+						<td>中国测绘科学研究院</td>
+					</tr>
+					<tr>
+						<td>赵超英</td>
+						<td>长安大学</td>
+					</tr>
+					<tr>
+						<td>胡  俊 </td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>贾洪果</td>
+						<td>西南交通大学</td>
+					</tr>
+					<tr>
+						<td>蒋  弥</td>
+						<td>河海大学</td>
+					</tr>
+					<tr>
+						<td>温扬茂</td>
+						<td>武汉大学</td>
+					</tr>
+					<tr>
+						<td>惠凤鸣</td>
+						<td>北京师范大学</td>
+					</tr>				
+			</table>
+				
+			</div>
+			<div style="position:relative;left:34%;top:0px;width:33%;height:100%;padding:20px;display:inline-block;">
+				<table class="table table-condensed">
+					<caption>秘书处</caption>
+				</table>
+				<table class="table table-condensed">
+					<tr>
+						<td colspan="2" style="font-weight:bold;color:#00c0ff;">秘书长</td>
+					</tr>
+					<tr>
+						<td>李志伟</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="font-weight:bold;color:#00c0ff;">成员</td>
+					</tr>
+					<tr>
+						<td>胡  俊</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>汪长城</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>冯光财</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>汤玉奇</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>潘红播</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>李  佳</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>解清华</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>赵  蓉</td>
+						<td>中南大学</td>
+					</tr>
+					<tr>
+						<td>吴  芳</td>
+						<td>中南大学</td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+		<div id="row12" class="rows" style="position:relative;padding:0px 20px 0px 20px;margin:auto;margin-top:60px;display:none;background:white;">
+			<p style="color:#00c0ff;font-size:36px;text-align:center;margin-top:20px;">论文征集</p>
+			<div style="position:absolute;width:49%;height:85%;padding:20px;display:inline-block;">
+				<p style="font-size:16px;text-indent:2em;color:#000;">会议议题包括成像雷达系统、雷达对地观测基础理论与模型、雷达成像及图像处理技术、SAR对地观测应用。内容涵盖：</p>
+				<!-- 手风琴 -->
+				<div class="panel-group" id="findpaper">
+				    <div class="panel panel-default">
+				        <div class="panel-heading" style="background:white;">
+				            <h4 class="panel-title"><a style="color:#00c0ff;text-decoration:none;" data-toggle="collapse" data-parent="#findpaper" href="#findpaperOne">1. 雷达电磁散射理论</a></h4>
+				        </div>
+				        <div id="findpaperOne" class="panel-collapse collapse in">
+				            <div class="panel-body" style="border:1px solid white;">
+				            	<table class="table table-condensed">
+									<tr>
+										<td>典型地物散射特性</td>
+										<td>电磁散射模拟</td>
+									</tr>
+									<tr>
+										<td> 散射模型</td>
+										<td>电磁波极化理论</td>
+									</tr>
+									<tr>
+										<td>极化散射机理</td>
+										<td>辐射传输模型</td>
+									</tr>
+								</table>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="panel panel-default">
+				        <div class="panel-heading">
+				            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#findpaper" href="#findpaperTwo">2. 成像雷达系统</a></h4>
+				        </div>
+				        <div id="findpaperTwo" class="panel-collapse collapse">
+				            <div class="panel-body">
+				            	<table class="table table-condensed">						
+									<tr>
+										<td>星载、机载和地基SAR系统</td>
+										<td>无人机SAR</td>
+									</tr>
+									<tr>
+										<td>双站、多站 SAR</td>
+										<td>SAR系统模拟和仿真</td>
+									</tr>
+									<tr>
+										<td>毫米波SAR</td>
+										<td>先进SAR模式</td>
+									</tr>
+								</table>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="panel panel-default">
+				        <div class="panel-heading">
+				            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#findpaper" href="#findpaperThree">3. 雷达成像</a></h4>
+				        </div>
+				        <div id="findpaperThree" class="panel-collapse collapse">
+				            <div class="panel-body">
+				            <table class="table table-condensed">
+								<tr>
+									<td>SAR 成像处理</td>
+									<td>SAR 信息一体化处理</td>
+								</tr>
+								<tr>
+									<td>极化和紧缩极化</td>
+									<td>极化干涉和紧缩极化干涉</td>
+								</tr>
+								<tr>
+									<td>双站多站SAR 成像处理</td>
+									<td>高分宽幅SAR成像处理</td>
+								</tr>
+								<tr>
+									<td>3 维-4 维 SAR成像处理</td>
+									<td>''</td>
+								</tr>
+							</table>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="panel panel-default">
+				        <div class="panel-heading">
+				            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#findpaper" href="#findpaperFour">4. SAR/InSAR数据处理算法</a></h4>
+				        </div>
+				        <div id="findpaperFour" class="panel-collapse collapse">
+				            <div class="panel-body">
+				            	<table class="table table-condensed">
+									<tr>
+										<td>SAR定标及几何校正</td>
+										<td>SAR 图像处理</td>
+									</tr>
+									<tr>
+										<td>SAR图像滤波和分割</td>
+										<td>InSAR大气改正</td>
+									</tr>
+									<tr>
+										<td>InSAR相位滤波和解缠</td>
+										<td>时序InSAR数据处理</td>
+									</tr>
+									<tr>
+										<td>多平台、多基线SAR数据处理</td>
+										<td>数据融合和制图</td>
+									</tr>
+									<tr>
+										<td>SAR和光学融合</td>
+										<td>顺轨和交轨道干涉</td>
+									</tr>
+									<tr>
+										<td>SAR目标探测与识别</td>
+										<td>SAR、极化地物分类</td>
+									</tr>
+								</table>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="panel panel-default">
+				        <div class="panel-heading">
+				            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#findpaper" href="#findpaperFive"> 5. SAR 对地观测应用</a></h4>
+				        </div>
+				        <div id="findpaperFive" class="panel-collapse collapse">
+				            <div class="panel-body">
+				            	<table class="table table-condensed">
+									<tr>
+										<td>SAR全球变化</td>
+										<td>SAR地震监测</td>
+									</tr>
+									<tr>
+										<td>SAR森林测图</td>
+										<td>SAR区域环境</td>
+									</tr>
+									<tr>
+										<td>SAR灾害监测</td>
+										<td>SAR测绘制图</td>
+									</tr>
+									<tr>
+										<td>SAR湿地遥感</td>
+										<td>SAR城市管理</td>
+									</tr>
+									<tr>
+										<td>SAR林业调查</td>
+										<td>SAR农情识别</td>
+									</tr>
+									<tr>
+										<td>SAR水文资源</td>
+										<td>SAR海洋观测</td>
+									</tr>
+									<tr>
+										<td>SAR冰川监测</td>
+										<td>SAR冻土监测</td>
+									</tr>
+								</table>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+			</div>
+			<div id="findpaper2" style="position:relative;left:51%;top:0px;width:49%;height:85%;padding:20px;display:inline-block;">
+				<p style="margin-top:100px;color:#00c0ff;font-size:20px;">优秀学生论文及优秀学生报告奖励： </p>
+				<p>学生论文可参与优秀论文评选活动，请在投稿时注明“参与优秀论文”评选活动，优秀学生论文及优秀学生报告将在会议闭幕式时给予现金奖励并颁发证书。奖励标准：</p>
+				<p>一等奖：500元 </p>
+				<p>二等奖：300元 </p>
+			</div>
+			
+		</div>
+		<div id="row13" class="rows" style="position:relative;padding:0px 20px 0px 20px;margin:auto;margin-top:60px;display:none;background:white;">
+			<div style="position:absolute;width:50%;height:100%;padding:20px;display:inline-block;">
+				<p style="color:#00c0ff;font-size:36px;text-align:center;">会议注册费支付</p>
+				<p class="row13_2">本次会议由会务公司代收注册费，并由会务公司出具相应发票，会务公司对公账号如下： </p>
+				<p>户名：湖南中投华信会议展览服务有限公司</p>
+				<p> 账号：606765116859</p>
+				<p>开户行：中国银行股份有限公司长沙市中南大学支行</p>
+				<p>注意：请在银行转账附言栏中务必<span>注明作者姓名</span>，同时请务必将<span>银行转账凭证扫描（要求jpg或pdf格式）</span>后通过会议网站的注册系统提交。</p>
+				<br/><br/><br/><br/>
+				<p style="text-align:center;cursor:pointer;"><a id="preinfo" href="#row17" style="text-decoration:none;color:#00c0ff;font-size:36px;">会议提前注册系统</a></p>
+				<p>请通过“会议投稿”页面用已注册的账号登陆或注册新用户登陆后进入系统后，点击“会议提前注册”提交注册费转账凭证。</p>
+			</div>
+			<div class="row13_div" style="position:relative;left:51%;top:0px;width:49%;height:100%;padding:20px;display:inline-block;">
+				<p style="margin-top:50px;">提前注册（2016年09月30日前）<span>（延期到2016年10月15日截止）</span></p>
+				<p>1200元人民币/人；学生：800元人民币/人。</p>
+				<p>现场注册（从2016年11月15日14:00开始）：</p>
+				<p>1500元人民币/人；学生：1000元人民币/人。</p>
+			</div>
+		</div>
+		<div id="row14" class="rows" style="position:relative;padding:0px 20px 0px 20px;margin:auto;margin-top:60px;display:none;background:white;">
+			<div style="position:absolute;width:49%;height:100%;padding:20px;display:inline-block;">
+				<p style="color:#00c0ff;font-size:36px;text-align:center;">住宿信息</p>
+				<table class="table">
+					<tbody>							
+						<th>房间型号</th>
+						<th>会务公司价格</th>					
+						<tr>
+							<td>高级大床房/双床房</td>
+							<td>368元/间（含单/双早）</td>
+						</tr>
+						<tr>
+							<td>行政大床房</td>
+							<td>458元/间（含单早）</td>
+						</tr>
+					</tbody>
+				</table>					
+				<p>酒店名称：长沙现代凯莱大酒店</p>
+				<p>酒店地址：长沙市天心区芙蓉南路二段128号现代广场</p>
+				<p>会议住宿预定专门联系方式：</p>
+				<p>联系人 易姝  湖南中投华信会议展览服务有限公司</p>
+				<p> 联系电话：<span>T:0731-89705558  M:18008467771</span> </p>
+				<p> 工作邮箱：<span>2221116188@qq.com</span></p>
+				<p>附件：<a href="">会议订房回执</a></p>
+				<h3>乘车路线</h3>
+			</div>
+			<div style="position:relative;left:51%;top:0px;width:49%;height:100%;padding:20px 0px;display:inline-block;">
+				<!-- 图片轮播 -->
+				<div id="hotel" class="carousel" data-ride="carousel" data-wrap="true" data-interval="2000">
+			        <ol class="carousel-indicators">
+			            <li class="active" data-target="#hotel" data-slide-to="0"></li>
+			            <li  data-target="#hotel" data-slide-to="1"></li>
+			            <li  data-target="#hotel" data-slide-to="2"></li>
+			        </ol>
+			        <div class="carousel-inner">
+				        <div class="item active">
+							<a href="##"><img src="images/hotel1.png" alt="" style="width:100%;height:100%;"></a>
+							<div style="color:white;font-size:20px;font-weight:bold;" class="carousel-caption">
+								酒店外观
+							</div>				            
+				        </div>
+				        <div class="item">
+				            <a href="##"><img src="images/hotel2.png" alt="" style="width:100%;height:100%;"></a>	
+				            <div style="color:white;font-size:20px;font-weight:bold;" class="carousel-caption">
+								高级大床房效果图
+							</div>							
+						</div>
+				        <div class="item">
+				            <a href="##"><img src="images/hotel3.png" alt="" style="width:100%;height:100%;"></a>
+				            <div style="color:white;font-size:20px;font-weight:bold;" class="carousel-caption">
+								高级标准间
+							</div>							
+						</div>
+			    	</div>
+				    <a class="left carousel-control" href="#hotel" role="button" data-slide="prev" >
+				        <span class="glyphicon glyphicon-chevron-left"></span>
+				    </a>
+				    <a class="right carousel-control" href="#hotel" role="button" data-slide="next">
+				        <span class="glyphicon glyphicon-chevron-right"></span>
+				    </a>
+				</div>
+			</div>
+		</div>
+		<div id="row15" class="rows" style="margin:auto;margin-top:50px;display:none;background:white;border:3px solid #00c0ff;">
+			<div style="width:50%;margin:0px;padding:0px;height:100%;display:inline-block;">
+				<form action="" class="form">
+					<table class="table" id="abstract" style="margin:30px auto;">
+						<tr>
+							<td colspan="5"><button style="background:white;color:#000;border:1px solid #00c0ff;" type="button" class="btn btn-primary">提交资料摘要</button></td>							
+						</tr>
+						<tr>
+							<td>论文标题：</td>
+							<td colspan="3"><input type="text" class="form-control" name="title"></td>
+							<td style="text-align:left;">不允许空格 </td>							
+						</tr>
+						<tr>
+							<td>论文作者：</td>
+							<td colspan="3"><input type="text" class="form-control" name="authername"></td>
+							<td style="text-align:left;">多位作者要求用‘；’隔开</td>							
+						</tr>
+						<tr>
+							<td>报 告 人：</td>
+							<td colspan="3"><input type="text" class="form-control" name="reportname"></td>
+							<td style="text-align:left;">请填写报告人</td>							
+						</tr>
+						<tr>
+							<td>报告形式：</td>
+							<td colspan="1">
+								<div class="form-group">
+									<select class="form-control"> 
+										<option>口头报告</option> 
+										<option>张贴报告</option> 										 
+									</select>
+								</div>
+							</td>							
+						</tr>
+						<tr>
+							<td>专　　题：</td>
+							<td colspan="1">
+								<div class="form-group">
+									<select class="form-control"> 
+										<option>雷达电池散射理论</option> 
+										<option>成像雷达系统</option> 										 
+										<option>雷达成像</option> 										 
+										<option>SAR/InSAP数据处理算法</option> 										 
+										<option>SAR对地观测应用</option> 										 
+									</select>
+								</div>
+							</td>
+							<td colspan="1">
+								<div class="form-group">
+									<select class="form-control" id="secondselect"> 
+										<option>典型地物散射特性</option> 
+										<option>电磁散射模拟</option> 										 
+										<option>电磁波极化理论</option> 										 
+										<option>极化散射机理</option> 										 
+										<option>辐射传输模型</option> 										 
+									</select>
+								</div>
+							</td>							
+						</tr>
+						<tr>
+							<td colspan="5"><button style="background:white;color:#000;border:1px solid #00c0ff;" type="button" class="btn btn-primary">删除摘要附件</button></td>							
+						</tr>
+						<tr>
+							<td>摘要征集：</td>
+							<td colspan="4"><input style="padding:0px;" type="file" class="form-control" name="abstract"></td>
+						</tr>
+						<tr>
+							<td>下载摘要:</td>
+							<td colspan="4"></td>							
+						</tr>
+						<tr>
+							<td colspan="5">限使用会议投稿中的摘要模板撰写的word文件，要求文件大小不能超过1M。</td>
+						</tr>
+						<tr>
+							<td colspan="5" colspan="3" style="color:#00c0ff;">请确认是否已经点击"新增或者修改"</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<div style="width:49%;margin:0px;padding:0px;height:100%;display:inline-block;">
+				<form action="" class="form">
+					<table class="table" id="thesis" style="margin:160px auto;">
+						<tr>
+							<td colspan="5">
+								<button style="background:white;color:#000;border:1px solid #00c0ff;" type="button" class="btn btn-primary">确认提交论文</button>&nbsp;&nbsp;&nbsp;&nbsp;
+								<button style="background:white;color:#000;border:1px solid #00c0ff;" type="button" class="btn btn-primary">删除论文附件</button>
+							</td>							
+						</tr>
+						<tr>
+							<td>论文征集：</td>
+							<td colspan="4"><input style="padding:0px;" type="file" class="form-control" name="abstract"></td>
+						</tr>
+						<tr>
+							<td>下载论文： </td>
+							<td colspan="4"></td>							
+						</tr>
+						<tr>
+							<td colspan="5" colspan="3" style="color:#00c0ff;">限使用按照会议投稿中的论文全文模板撰写的word文件，要求文件大小不能超过10M。</td>
+						</tr>						
+					</table>
+				</form>
+			</div>
+		</div>
+		<div id="row16" class="rows" style="margin:auto;margin-top:50px;display:none;background:white;border:3px solid #00c0ff;">
+			<div style="width:50%;margin:0px;padding:0px;height:100%;display:inline-block;">
+				<form action="" class="form" id="reference" style="margin:auto;">
+					<table class="table" id="reference1" style="margin:160px auto;">
+						<tr>
+							<td colspan="3">
+								<button style="background:white;color:#000;border:1px solid #00c0ff;" type="button" class="btn btn-primary">确认提交</button>
+							</td>							
+						</tr>
+						<tr>
+							<td>是否提交摘要或全文参会： </td>
+							<td colspan="2">
+								<div class="form-group">
+									<select class="form-control" id="secondselect"> 
+										<option>已提交摘要或论文全文并参会</option> 
+										<option>不提交摘要或论文全文论文，但是参加会议</option> 										 										 
+									</select>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3">是否提交摘要或全文参会*：（必选）</td>							
+						</tr>
+						<tr>
+							<td colspan="3" style="color:#00c0ff;">请确认是否已经点击"提交"按钮</td>
+						</tr>						
+					</table>
+				</form>
+			</div>
+			<div style="width:49%;margin:0px;padding:0px;height:100%;display:inline-block;">
+				<form action="" class="form" id="account">
+					<table class="table" id="reference1" style="margin:160px auto;">
+						<tr>
+							<td colspan="3">
+								<button style="background:white;color:#000;border:1px solid #00c0ff;" type="button" class="btn btn-primary">确认提交</button>&nbsp;&nbsp;&nbsp;&nbsp;
+								<button style="background:white;color:#000;border:1px solid #00c0ff;" type="button" class="btn btn-primary">删除附件</button>
+							</td>							
+						</tr>
+						<tr>
+							<td>转账汇款凭证</td>
+							<td colspan="2">
+								<input style="padding:0px;" type="file" class="form-control" name="account">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="1">下载凭证： </td>
+							<td colspan="2"></td>							
+						</tr>
+						<tr>
+							<td colspan="3">会议费转账汇款凭证提交*：（必填）要求文件格式为jpg或pdf </td>
+						</tr>
+						<tr>
+							<td colspan="3" style="color:#00c0ff;">请确认是否已经点击"提交"按钮 </td>
+						</tr>						
+					</table>
+				</form>
+			</div>
+		</div>
+		<div id="row17" class="rows" style="position:relative;padding:0px 20px 0px 20px;margin:auto;margin-top:60px;display:none;background:white;">
+			<div style="margin:100px auto;display:block;background:white;width:1200px;height:500px;padding:35px;">
+			<div style="width:770px;height:420px;position:absolute;">
+				<p style="font-size:50px;color:#00c0ff;text-align:center;">论文投稿与收录</p>
+				<p style="font-size:16px;color:#000;text-indent:2em;line-height:2em;">热忱欢迎从事相关领域研究的专家、学者和学生踊跃投稿。请投稿作者准备 500字左右的中文摘要，包括论文题目、作者及其单位、通讯作者联系方式（通讯地址、邮编、e-mail和联系电话）。
+					经会议学术委员会评审，凡论文摘要被采纳者将通知提交论文全文。属各类基金项目资助的论文请在首页注明基金项目名称和编号。入选论文将收录《第三届成像雷达对地观测高级学术研讨会论文集》
+					（电子版）。
+				</p>
+				<p style="font-size:16px;color:#000;text-indent:2em;line-height:2em;">论文摘要及全文模板如下：</p>
+				<br/><br/>
+				<p class="papertemplet" style="margin-left:40px;text-align:center;width:200px;font-size:20px;line-height:2em;background:white;border:2px solid #00c0ff;display:inline-block;">
+					<a href="" style="color:#00c0ff;text-decoration:none;">摘要模板</a>
+				</p>
+				<p class="papertemplet" style="margin-left:250px;text-align:center;width:200px;font-size:20px;line-height:2em;background:white;border:2px solid #00c0ff;display:inline-block;">
+					<a href="" style="color:#00c0ff;text-decoration:none;">论文全文模板</a>
+				</p>
+			</div>
+			<div style="border:3px solid #00c0ff;width:370px;height:420px;padding:0px;margin:0px;position:relative;left:790px;top:0px;">
+				<!-- 用户登录注册 -->
+				<p style="font-size:40px;color:#000;margin-top:20px;text-align:center;">用户注册登录入口</p>
+				<form role="form" style="width:90%;margin:30px auto;" id="userform">			
+				  <div class="form-group">
+				    <input style="font-size:18px;height:50px;border:1px solid #d6d6d6;background:rgb(230, 230, 230);" type="text" class="form-control" id="username" name="username" placeholder="请输入您的用户名">
+				  </div>
+				  <div class="form-group">
+				    <input style="font-size:18px;height:50px;border:1px solid #d6d6d6;background:rgb(230, 230, 230);" type="password" class="form-control" id="password" name="password" placeholder="请输入您的密码">
+				  </div>				  
+				  <button id="login" style="margin-bottom:10px;height:50px;width:100%;font-size:18px;background:#00c0ff;border:1px solid white;color:white;" type="button" class="btn btn-default">Login&nbsp;&nbsp;In</button>
+				  <button style="height:50px;width:100%;font-size:18px;background:#00c0ff;border:1px solid white;color:white;" type="button" class="btn btn-default">Register</button>
+				</form>
+			</div>
+		</div>	
+	</div>
+	<!-- 模态弹出框 -->
+	<div class="modal fade" id="register" data-backdrop="true" data-keyboard="false">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" style="color:#00c0ff;font-size:18px;">会议投稿系统注册信息 </h4>
+				</div>
+				<div class="modal-body" id="modalbody">
+					<!-- ----------------- -->									
+					<form class="form"  id="registerform">
+						<table class="table table-condensed">										
+							<tr>
+								<td>用户名称：</td>
+								<td><input type="text" class="form-control" name="username" placeholder="请输入您的用户名"></td>
+								<td><div class="alert alert-default" role="alert">"."、“-”、“_”以外的其他符号</div></td>
+							</tr>
+							<tr>
+								<td>邮件地址：</td>
+								<td><input type="email" class="form-control" name="email" placeholder="请输入您的邮箱地址"></td>
+								<td><div class="alert alert-default" role="alert">请填写正确邮箱</div></td>
+							</tr>
+							<tr>
+								<td>密&nbsp;&nbsp;码：</td>
+								<td><input type="password" class="form-control" name="password" placeholder="请输入您的密码"></td>
+								<td><div class="alert alert-default" role="alert">密码是数字或字母6-12位</div></td>
+							</tr>
+							<tr>
+								<td>确认密码：</td>
+								<td><input type="password" class="form-control" name="passwordagain" placeholder="请确认您的密码"></td>
+								<td><div class="alert alert-default" role="alert">请再次输入密码</div></td>
+							</tr>
+							<tr>
+								<td>姓&nbsp;&nbsp;名：</td>
+								<td><input type="text" class="form-control" name="name" placeholder="请输入您的真实姓名"></td>
+								<td><div class="alert alert-default" role="alert">请填写真实姓名</div></td>
+							</tr>
+							<tr>
+								<td>性&nbsp;&nbsp;别：</td>
+								<td>
+									<div class="form-group">
+									    <label class="form-inline">
+									      <input type="radio" name="optionsRadios" id="man" value="1" checked>
+									      	男
+									    </label>
+									 
+									    <label class="form-inline">
+									      <input type="radio" name="optionsRadios" id="woman" value="0">
+									     	女
+									    </label>
+									  </div>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>手机号码：</td>
+								<td><input type="text" class="form-control" name="phone" placeholder="请输入您的手机号码"></td>
+								<td><div class="alert alert-default" role="alert">请填写正确手机号码 </div></td>
+							</tr>
+							<tr>
+								<td>电话号码：</td>
+								<td><input type="text" class="form-control" name="e_phone" placeholder="请输入您的电话号码"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>从事专业：</td>
+								<td><input type="text" class="form-control" name="profession" placeholder="请输入您的专业"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>工作单位：</td>
+								<td><input type="text" class="form-control" name="work_unit" placeholder="请输入您的工作单位"></td>
+								<td><div class="alert alert-default" role="alert">请填写工作单位 </div></td>
+							</tr>
+							<tr>
+								<td>通讯地址：</td>
+								<td><input type="text" class="form-control" name="address" placeholder="请输入您的通讯地址"></td>
+								<td><div class="alert alert-default">请填写通讯地址 </div></td>
+							</tr>
+							<tr>
+								<td>职&nbsp;&nbsp;称：</td>
+								<td>
+									<div class="form-group">
+									    <select class="form-control"> 
+									      <option>院士</option> 
+									      <option>教授</option> 
+									      <option>副教授</option> 
+									      <option>讲师</option> 
+									      <option>研究员</option> 
+									      <option>副研究员</option> 
+									      <option>助理研究员</option> 
+									      <option>博士后</option> 
+									      <option>博士生</option> 
+									      <option>硕士生</option> 
+									      <option>其他</option> 
+									      </select>
+									  </div>
+								</td>
+								<td></td>								
+							</tr>
+							<tr>
+								<td colspan="3" id="lasttd">
+									<button type="button" class="btn btn-default">注册</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<button type="reset" class="btn btn-default">重置</button>
+								</td>
+							</tr>																						
+						</table>
+					</form>								
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div>
+	<!-- 登录模态弹出框 -->
+	<div class="modal fade" id="loginmodal" data-backdrop="true" data-keyboard="false">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" style="color:#00c0ff;font-size:18px;text-align:center;">会议投稿系统注册信息</h4>
+				</div>
+				<div class="modal-body">
+					<table class="table" id="registerinfo" style="margin:auto;">
+						<tr>
+							<td>用户名称：</td>
+							<td>aaaaaa</td>
+							<td>邮件地址：</td>
+							<td>1453876715@qq.com</td>
+						</tr>
+						<tr>
+							<td>姓&nbsp;&nbsp;名：</td>
+							<td>张三</td>
+							<td>密&nbsp;&nbsp;码：</td>
+							<td>123456789</td>
+						</tr>
+						<tr>
+							<td>性&nbsp;&nbsp;别：</td>
+							<td>男</td>
+							<td>职&nbsp;&nbsp;称：</td>
+							<td>硕士生</td>
+						</tr>
+						<tr>
+							<td>手机号码：</td>
+							<td>11111111111</td>
+							<td>电话号码：</td>
+							<td>028-111111</td>
+						</tr>
+						<tr>
+							<td>从事专业：</td>
+							<td>计算机技术</td>
+							<td>工作单位：</td>
+							<td>***公司</td>
+						</tr>
+						<tr>
+							<td>通讯地址：</td>
+							<td>*****街道</td>
+							<td>用户编号：</td>
+							<td>00373</td>
+						</tr>
+					</table>
+					<div id="re">
+						<p class="papertemplet" style="margin-left:60px;text-align:center;width:180px;font-size:20px;line-height:2em;background:white;border:2px solid #00c0ff;display:inline-block;">
+							<a href="#row15" style="color:#00c0ff;text-decoration:none;">摘要或全文投稿</a>
+						</p>
+						<p class="papertemplet" style="margin-left:40px;text-align:center;width:200px;font-size:20px;line-height:2em;background:white;border:2px solid #00c0ff;display:inline-block;">
+							<a href="#row16" style="color:#00c0ff;text-decoration:none;">会议提前注册</a>
+						</p>
+					</div>
+					<button style="margin-left:85%;" type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+				</div>
+				
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+		</div>		
+		
+<!-- ---------------------------------------------------- -->
+		<div class="modal fade" id="mymodal" data-backdrop="true" data-keyboard="false" style="border:1px solid red;">
+		    <div class="modal-dialog" style="border:1px solid green;margin-right:0px;margin-top:0px;width:280px;height:100%;">
+		        <div class="modal-content" style="border:1px solid blue;padding:0px;height:100%;">
+					<div class="modal-body" id="modalbody" style="padding:0px;">
+						<!-- --------垂直导航条--------- -->									
+						<div class="panel-group" id="accordion">
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						            	<span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;
+						            	<a class="navright" data-parent="#accordion" href="#row0">精彩首页</a>
+						            </h4>
+						        </div>								        
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						            	<span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;
+						            	<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+						            		会议信息<span class="caret"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						            		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge">5</span></a>
+						            </h4>
+						        </div>
+						        <div id="collapseTwo" class="panel-collapse collapse">
+						            <div class="panel-body">
+						            	<ul class='nav nav-tabs nav-stacked'>
+											<li><a href='#row5'>会议地点</a></li>
+											<li><a href='#row6'>会议新闻</a></li>														
+											<li><a href='#row7'>重要日期</a></li>
+											<li><a href='#row1' class="navright">欢迎词</a></li>
+											<li><a href='#row8'>会议日程</a></li>								
+										</ul>
+						            </div>									         
+						        </div>
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						            	<span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;
+						            	<a data-toggle="collapse"data-parent="#accordion"href="#collapseThree">
+						            		委员会/组织<span class="caret"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						            		&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge">3</span></a>
+						            </h4>
+						        </div>
+						        <div id="collapseThree" class="panel-collapse collapse">
+						            <div class="panel-body">
+						            	<ul class='nav nav-tabs nav-stacked'>
+											<li><a href='#row9'>组织机构</a></li>
+											<li><a href='#row10'>科学委员会</a></li>
+											<li><a href='#row11'>组委会信息</a></li>								
+										</ul>
+						            </div>
+						        </div>
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						            	<span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;
+						            	<a data-parent="#accordion" href='#row12'>论文征集</a>
+						            </h4>
+						        </div>								        
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						            	<span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;
+						            	<a data-parent="#accordion" href='#row17'>会议投稿</a>
+						            </h4>
+						        </div>								        
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						            	<span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;
+						            	<a data-parent="#accordion" href="#row2" class="navright">会议通知</a>
+						            </h4>
+						        </div>								        
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						            	<span class="glyphicon glyphicon-cloud"></span>&nbsp;&nbsp;
+						            	<a data-parent="#accordion" href='#row13'>会议注册</a>
+						            </h4>
+						        </div>								        
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						            	<span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;
+						            	<a data-parent="#accordion" href='#row14'>酒店预订</a>
+						            </h4>
+						        </div>								        
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+							            <span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;
+							            <a data-parent="#accordion" href="#row3" class="navright">联系我们</a>
+						            </h4>
+						        </div>								        
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						            	<span class="glyphicon glyphicon-cloud"></span>&nbsp;&nbsp;
+						            	<a data-parent="#accordion" href="#row4" class="navright">参展与赞助</a>
+						            </h4>
+						        </div>								        
+						    </div>				    
+						</div>												
+					</div>								
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div>
+	</div>
+	<div id="row1" class="row" style="position:relative;margin:0px auto;display:block;background-image:url(images/newpicture2.jpg);">
+		<div  class="rows" style="padding:0px 20px 0px 20px;margin:auto;margin-top:60px;border:3px solid #00c0ff;display:block;background:white;">
+			<p style="color:#00c0ff;font-size:36px;text-align:center;margin:20px auto;">欢迎词</p>
+			<p style="text-indent:2em;color:#000;font-size:18px;">合成孔径雷达（ SAR）作为主动微波成像的核心传感器，由于其特有的全天时、全天候、高空间和时间分辨率成像及对地物呈现不同散射特性，
+				使其成为国际对地观测领域最重要的前沿技术之一。随着极化干涉 SAR、卫星编队SAR、多平台（星载/机载/无人机/地基）SAR 和数字波束形成SAR等新技术的出现，
+				国际上先进 SAR 任务计划的提出和实施以及我国自主研发的成像雷达系统的快速发展，合成孔径雷达正呈现多种获取技术交叉利用和综合发展的蓬勃局面。
+				目前SAR已具备了对区域或全球尺度的地形、环境、资源和灾害等的周期性动态观测能力，这些能力可以有效满足国家战略需求和全球环境、资源监测。
+				在 2014 年召开第二届成像雷达会议基础上，本届成像雷达对地观测高级学术研讨会将继续围绕雷达对地观测理论与模型、成像雷达系统、雷达成像及图像处理技术、
+				 SAR 对地观测应用等方面展开研讨。通过本次大会的召开，加强雷达对地观测理论、技术及应用的交流与合作，深化成像雷达在支持全球环境变化和地球可持续发展方面的研究。
+			</p>
+			<p style="text-indent:2em;color:#000;font-size:18px;">大会将为您提供一个雷达对地观测理论、技术与应用的全方位学术交流平台。届时来自国际国内的科研院所、大专院校、政府部门和企业的科学家、工程师、应用专家和学生将聚集一堂，
+				 进行学术交流、技术培训、参观展览以及其他相关学术活动。这将是您与国际国内高校、科研机构、企业单位加强学术交流与研究合作的良好契机。
+			</p>
+			<p style="text-indent:2em;color:#000;font-size:18px;">大会定于2016年11月在湖南长沙召开，诚挚地邀请您莅临大会！</p>
+			<p style="text-indent:2em;color:#000;font-size:18px;">第三届成像雷达对地观测高级学术研讨会&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大会主席</p>
+			<img style="display:block;margin-left:85%;" src="images/sign.png">
+			<p style="margin-left:85%;color:#000;font-size:18px;">2016年5月1日</p>
+		</div>
+	</div><!-- /.modal -->
+	<div id="row2" class="row" style="position:relative;margin:0px auto;display:block;opacity:0.9;background-image:url(images/newpicture2.jpg);">
+		<div style="display:block;margin:150px auto;border:1px solid white;background:white;width:800px;padding:35px;">
+			<p style="color:#000;font-size:40px;text-align:center;">会议通知</p>
+			<p style="text-align:center;padding-bottom:20px;">
+				<a style="color:#00c0ff;font-size:24px;text-decoration:none;cursor:pointer;">会议一号通知</a>
+			</p>
+			<p style="text-align:center;padding-bottom:20px;">
+				<a style="color:#00c0ff;font-size:24px;text-decoration:none;cursor:pointer;">会议通知（盖章版）</a>
+			</p>
+			<p style="text-align:center;border-bottom:1px solid #000;padding-bottom:20px;">
+				<a style="color:#00c0ff;font-size:24px;text-decoration:none;cursor:pointer;">会议议程一览表</a>
+			</p>
+		</div>		
+	</div><!-- /.modal -->
+	<div id="row3" class="row" style="position:relative;margin:0px auto;display:block;opacity:0.9;background-image:url(images/newpicture2.jpg);">
+		<div style="margin:100px auto;border:1px solid white;display:block;background:white;width:1200px;padding:35px;">
+			<p style="color:#00c0ff;font-family:'Microsoft Yahei';font-size:20px;text-align:center;">联系地址</p>
+			<p style="color:#000;font-family:'Microsoft Yahei';font-size:18px;text-align:center;"> 湖南省长沙市中南大学 地球科学与信息物理学院 测绘与遥感科学系</p>
+			<p style="color:#00c0ff;font-family:'Microsoft Yahei';font-size:18px;text-align:center;">会议邮箱</p>
+			<p style="color:#000;font-family:'Microsoft Yahei';font-size:18px;text-align:center;">adsar2016@csu.edu.cn&nbsp;&nbsp;geomatic@csu.edu.cn</p>
+			<p style="color:#000;font-family:'Microsoft Yahei';font-size:18px;text-align:center;">传    真：0731-88830573 </p>
+			<p style="color:#000;font-family:'Microsoft Yahei';font-size:18px;text-align:center;padding-bottom:20px;border-bottom:1px solid #000;">邮    编： 410083 </p>
+		</div>	
+	</div>
+	<div id="row4" class="row" style="position:relative;margin:0px auto;padding:0px;display:block;opacity:0.9;background-image:url(images/newpicture2.jpg);">
+		<div style="margin:80px auto;display:block;background:white;padding:0px;">
+			<!-- 图片轮播 -->
+			<div id="slidershow" class="carousel slide" data-ride="carousel" data-wrap="true" data-interval="2000">		        
+		        <div class="carousel-inner">
+			        <div class="item active">
+						<a href=""><img src="images/whitepicture.png" alt="" style="width:100%;height:100%;"></a>
+			            <div class="carousel-caption" style="padding:0px;margin:0px;height:100%;">
+							<h1 style="color:#00c0ff;font-size:50px;margin-top:40px;">大会赞助</h1>
+							<p style="color:#000;font-size:30px;">1.赞助企业：2个，赞助费8万/个。</p>
+							<h1 style="color:#00c0ff;font-size:30px;">权益如下</h1>
+							<ul>
+						        <li>(1)&nbsp;&nbsp;在大会的相关文件和大会背景板上标注企业的名称及LOGO；</li>
+						        <li>(2)&nbsp;&nbsp;在大会报告上安排PPT 演讲（15分钟）；</li>
+						        <li>(3)&nbsp;&nbsp;免费提供标准展位（3*2米）1个；</li>
+						        <li>(4)&nbsp;&nbsp;2个免费参会名额；</li>
+						        <li>(5)&nbsp;&nbsp;会议材料中增加企业宣传材料（1册，尺寸为A4）</li>
+					        </ul>
+						</div>
+			        </div>
+			        <div class="item">
+			            <a href=""><img src="images/whitepicture.png" alt="" style="width:100%;height:100%;"></a>
+			            <div class="carousel-caption" style="padding:0px;margin:0px;height:100%;">
+							<h1 style="color:#00c0ff;font-size:50px;margin-top:40px;">展位参展</h1>
+							<p style="color:#000;font-size:30px;">1.赞助企业：2个，赞助费8万/个。</p>
+							<h1 style="color:#00c0ff;font-size:30px;">权益如下</h1>
+							<ul>
+						        <li>(1)&nbsp;&nbsp;在大会的相关文件和大会背景板上标注企业的名称及LOGO；</li>
+						        <li>(2)&nbsp;&nbsp;在大会报告上安排PPT 演讲（15分钟）；</li>
+						        <li>(3)&nbsp;&nbsp;免费提供标准展位（3*2米）1个；</li>
+						        <li>(4)&nbsp;&nbsp;2个免费参会名额；</li>
+						        <li>(5)&nbsp;&nbsp;会议材料中增加企业宣传材料（1册，尺寸为A4）</li>
+					        </ul>
+						</div>
+					</div>
+			        <div class="item">
+			            <a href=""><img src="images/whitepicture.png" alt="" style="width:100%;height:100%;"></a>
+			            <div class="carousel-caption" style="padding:0px;margin:0px;height:100%;">
+							<p style="color:#000;font-size:20px;margin-top:50px;"> 科技成果展览是第三届成像雷达对地观测高级学术研讨会的重要组成部分，将在会议期间同期举行，为各大公司显示企业高科技实力提供平台。
+								欢迎企业参加并展示其前沿科技与技术成就和成像雷达相关的产品，包括成像雷达新技术与新应用、成像雷达系统与硬件、SAR数据处理软件和SAR数据等。
+								本次峰会赞助商设大会赞助和展位参展等形式，并享有多项权益。详情请询大会秘书处。</p>
+							<p style="color:#00c0ff;font-size:20px;">联系人：胡俊</p>
+							<p style="color:#00c0ff;font-size:20px;">电话：13787050426</p>
+							<p style="color:#00c0ff;font-size:20px;">邮箱：csuhujun@csu.edu.cn</p>
+						</div>
+					</div>
+		    	</div>
+			    <a style="background:white;" class="left carousel-control" href="#slidershow" role="button" data-slide="prev" >
+			        <span style="color:#00c0ff;font-size:30px;" class="glyphicon glyphicon-chevron-left"></span>
+			    </a>
+			    <a style="background:white;" class="right carousel-control" href="#slidershow" role="button" data-slide="next">
+			        <span style="color:#00c0ff;font-size:30px;" class="glyphicon glyphicon-chevron-right"></span>
+			    </a>
+			</div>
+		</div>
+		<div style="position:absolute;left:0px;bottom:0px;width:100%;height:100px;background:#3D3F3E;">
+			<P style="color:white;margin-top:40px;margin-left:100px;display:inline-block;">湖南省长沙市岳麓区麓山南路932号中南大学地球科学与信息物理学院 &nbsp;&nbsp;
+				<a href="BackgroundSystem.html" style="color:#00c0ff;cursor:pointer;text-decoration:none;">进入后台</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</P>
+				<div style="position:absolute;right:150px;top:40px;display:inline-block;">
+					<span style="color:white;">相关链接：</span>					
+					<a target="_blank" style="color:#00c0ff;text-decoration:none;" href="http://www.csu.edu.cn/">中南大学</a>
+				</div>
+			
+		</div>	
+	</div>
+
+
+
+
+
+
+
+
+
+	
+
+</div>
+<!-- <script type='text/javascript' src='http://v3.jiathis.com/code/jia.js' charset='utf-8'></script> -->
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--百度地图API-->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=b1LafrGdC6GzRmW4E7VK1S21dc8nWxm8"></script>
+<script src="js/indexnew.js"></script>
+</body>
+</html>
